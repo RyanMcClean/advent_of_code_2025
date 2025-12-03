@@ -1,0 +1,14 @@
+/home/ryan_mcc/Documents/advent_of_code_2025/one/bin/Debug/net10.0/one
+/home/ryan_mcc/Documents/advent_of_code_2025/one/bin/Debug/net10.0/one.deps.json
+/home/ryan_mcc/Documents/advent_of_code_2025/one/bin/Debug/net10.0/one.runtimeconfig.json
+/home/ryan_mcc/Documents/advent_of_code_2025/one/bin/Debug/net10.0/one.dll
+/home/ryan_mcc/Documents/advent_of_code_2025/one/bin/Debug/net10.0/one.pdb
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/one.GeneratedMSBuildEditorConfig.editorconfig
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/one.AssemblyInfoInputs.cache
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/one.AssemblyInfo.cs
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/one.csproj.CoreCompileInputs.cache
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/one.dll
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/refint/one.dll
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/one.pdb
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/one.genruntimeconfig.cache
+/home/ryan_mcc/Documents/advent_of_code_2025/one/obj/Debug/net10.0/ref/one.dll
