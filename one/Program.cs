@@ -1,13 +1,12 @@
-﻿using System;
-
-class Program
+﻿
+class one
 {
     private static class Globals
     {
-        public static int stops = 0;
-        public static int passes = 0;
+        public static int Stops;
+        public static int Passes;
     }
-    static void Main(string[] args)
+    static void Main()
     {
         Console.WriteLine("Hello, World!");
         PartOne();
@@ -15,7 +14,8 @@ class Program
 
     static void PartOne()
     {
-        string[] input = System.IO.File.ReadAllLines("./input");
+        // Multiline input
+        string[] input = File.ReadAllLines("./input");
         int dial = 50;
         const int dialMax = 99;
         const int dialMin = 0;
@@ -27,8 +27,8 @@ class Program
             dial = RotateDial(dial, direction, steps, dialMax, dialMin);
         }
         Console.WriteLine($"Part One: The final dial position is {dial}");
-        Console.WriteLine($"Part One: The dial stopped on 0 {Globals.stops} times");
-        Console.WriteLine($"Part Two: The dial passed 0 {Globals.passes} times");
+        Console.WriteLine($"Part One: The dial stopped on 0 {Globals.Stops} times");
+        Console.WriteLine($"Part Two: The dial passed 0 {Globals.Passes} times");
     }
 
     /*
@@ -43,7 +43,7 @@ class Program
             {
                 dial--;
                 dial = dial < dialMin ? dialMax : dial;
-                Globals.passes = dial == 0 ? ++Globals.passes : Globals.passes;
+                Globals.Passes = dial == 0 ? ++Globals.Passes : Globals.Passes;
             }
         }
         else if (direction == 'R')
@@ -52,10 +52,10 @@ class Program
             {
                 dial++;
                 dial = dial > dialMax ? dialMin : dial;
-                Globals.passes = dial == 0 ? ++Globals.passes : Globals.passes;
+                Globals.Passes = dial == 0 ? ++Globals.Passes : Globals.Passes;
             }
         }
-        Globals.stops = dial == 0 ? ++Globals.stops : Globals.stops;
+        Globals.Stops = dial == 0 ? ++Globals.Stops : Globals.Stops;
         return dial;
     }
 }
