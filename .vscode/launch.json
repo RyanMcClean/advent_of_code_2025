@@ -1,0 +1,100 @@
+{
+  "configurations": [
+    {
+      "name": "C#: one",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/one/bin/Debug/net10.0/one.dll",
+      "cwd": "${workspaceFolder}/one/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: two",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/two/bin/Debug/net10.0/two.dll",
+      "cwd": "${workspaceFolder}/two/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: three",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/three/bin/Debug/net10.0/three.dll",
+      "cwd": "${workspaceFolder}/three/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: four",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/four/bin/Debug/net10.0/four.dll",
+      "cwd": "${workspaceFolder}/four/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: five",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/five/bin/Debug/net10.0/five.dll",
+      "cwd": "${workspaceFolder}/five/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: six",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/six/bin/Debug/net10.0/six.dll",
+      "cwd": "${workspaceFolder}/six/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: seven",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/seven/bin/Debug/net10.0/seven.dll",
+      "cwd": "${workspaceFolder}/seven/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: eight",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/eight/bin/Debug/net10.0/eight.dll",
+      "cwd": "${workspaceFolder}/eight/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: nine",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/nine/bin/Debug/net10.0/nine.dll",
+      "cwd": "${workspaceFolder}/nine/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: ten",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/ten/bin/Debug/net10.0/ten.dll",
+      "cwd": "${workspaceFolder}/ten/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: eleven",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/eleven/bin/Debug/net10.0/eleven.dll",
+      "cwd": "${workspaceFolder}/eleven/",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C#: twelve",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/twelve/bin/Debug/net10.0/twelve.dll",
+      "cwd": "${workspaceFolder}/twelve/",
+      "console": "integratedTerminal"
+    }
+  ]
+}
