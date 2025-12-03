@@ -14,7 +14,8 @@
       "request": "launch",
       "program": "${workspaceFolder}/two/bin/Debug/net10.0/two.dll",
       "cwd": "${workspaceFolder}/two/",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "preLaunchTask": "dotnet: build"
     },
     {
       "name": "C#: three",
