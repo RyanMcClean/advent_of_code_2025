@@ -1,7 +1,4 @@
-﻿using System;
-using System.Net.NetworkInformation;
-
-class Program
+﻿class Two
 {
     private static class Globals
     {
@@ -12,10 +9,10 @@ class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("Day Two");
-        Two();
+        DayTwo();
     }
 
-    static void Two()
+    static void DayTwo()
     {
         // Singleline input
         string input = File.ReadLines("./input").First();
@@ -48,7 +45,7 @@ class Program
             if (numLen % i == 0)
             {
                 string subString = num.ToString()[..(int)i];
-                int divisible = numLen / (int) i;
+                int divisible = numLen / (int)i;
                 string newString = "";
                 for (int j = 0; j < divisible; j++)
                 {

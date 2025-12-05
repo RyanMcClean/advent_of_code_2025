@@ -1,5 +1,5 @@
 ﻿
-class one
+class One
 {
     private static class Globals
     {
