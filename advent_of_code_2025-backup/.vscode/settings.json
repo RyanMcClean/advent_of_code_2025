@@ -18,8 +18,5 @@
         "titleBar.inactiveBackground": "#f4138a99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.remoteColor": "#f4138a",
-    "dotrush.roslyn.projectOrSolutionFiles": [
-        "/home/ryan_mcc/Documents/Git/advent_of_code_2025/2025/advent_of_code_2025.sln"
-    ]
+    "peacock.remoteColor": "#f4138a"
 }
