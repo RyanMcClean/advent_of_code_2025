@@ -2,17 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": ".NET Core Debugger (launch)",
+      "name": "Debug File",
       "type": "coreclr",
       "request": "launch",
-      "program": "${command:dotrush.activeTargetPath}",
-      "preLaunchTask": "dotrush: Build"
+      "program": "${fileDirname}/bin/Debug/net10.0/${fileDirnameBasename}.dll",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "openOnSessionStart",
+      "preLaunchTask": "build"
     },
-    {
-      "name": ".NET Core Debugger (attach)",
-      "type": "coreclr",
-      "request": "attach",
-      "processId": "${command:dotrush.pickProcess}"
-    }
   ]
 }
