@@ -1,112 +1,18 @@
 {
+  "version": "0.2.0",
   "configurations": [
     {
-      "name": "C#: one",
+      "name": ".NET Core Debugger (launch)",
       "type": "coreclr",
       "request": "launch",
-      "program": "${workspaceFolder}/one/bin/Debug/net10.0/one.dll",
-      "cwd": "${workspaceFolder}/one/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
+      "program": "${command:dotrush.activeTargetPath}",
+      "preLaunchTask": "dotrush: Build"
     },
     {
-      "name": "C#: two",
+      "name": ".NET Core Debugger (attach)",
       "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/two/bin/Debug/net10.0/two.dll",
-      "cwd": "${workspaceFolder}/two/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: three",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/three/bin/Debug/net10.0/three.dll",
-      "cwd": "${workspaceFolder}/three/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: four",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/four/bin/Debug/net10.0/four.dll",
-      "cwd": "${workspaceFolder}/four/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: five",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/five/bin/Debug/net10.0/five.dll",
-      "cwd": "${workspaceFolder}/five/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: six",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/six/bin/Debug/net10.0/six.dll",
-      "cwd": "${workspaceFolder}/six/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: seven",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/seven/bin/Debug/net10.0/seven.dll",
-      "cwd": "${workspaceFolder}/seven/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: eight",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/eight/bin/Debug/net10.0/eight.dll",
-      "cwd": "${workspaceFolder}/eight/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: nine",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/nine/bin/Debug/net10.0/nine.dll",
-      "cwd": "${workspaceFolder}/nine/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: ten",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/ten/bin/Debug/net10.0/ten.dll",
-      "cwd": "${workspaceFolder}/ten/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: eleven",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/eleven/bin/Debug/net10.0/eleven.dll",
-      "cwd": "${workspaceFolder}/eleven/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
-    },
-    {
-      "name": "C#: twelve",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/twelve/bin/Debug/net10.0/twelve.dll",
-      "cwd": "${workspaceFolder}/twelve/",
-      "console": "integratedTerminal",
-      "preLaunchTask": "dotnet: build"
+      "request": "attach",
+      "processId": "${command:dotrush.pickProcess}"
     }
   ]
 }
