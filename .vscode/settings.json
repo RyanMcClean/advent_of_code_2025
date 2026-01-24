@@ -18,5 +18,8 @@
         "titleBar.inactiveBackground": "#f4138a99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.remoteColor": "#f4138a"
+    "peacock.remoteColor": "#f4138a",
+    "dotrush.roslyn.projectOrSolutionFiles": [
+        "/home/ryan_mcc/Documents/git/advent_of_code_2025/2025/one/one.csproj"
+    ]
 }
