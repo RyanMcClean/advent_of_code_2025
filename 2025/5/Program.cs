@@ -17,7 +17,7 @@
 
     public static void PartOne(string[] input)
     {
-        // Range of fresh ingedients
+        // Range of fresh ingredients
         string range = "";
         // available fruits
         string available = "";
